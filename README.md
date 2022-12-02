@@ -7,10 +7,10 @@ k3d 集群
 brew install k3d
 ```
 
-## 创建一个多节点集群并映射到宿主机端口 8080
+## 创建一个多节点集群并映射到宿主机端口 8081
 
 ``` sh
-k3d cluster create k3d -p "8080:80@loadbalancer" --agents 2
+k3d cluster create k3d -p "8081:80@loadbalancer" --agents 2
 ```
 
 ## 部署 nginx 应用测试集群
